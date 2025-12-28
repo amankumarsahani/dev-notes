@@ -1,6 +1,50 @@
 #!/bin/bash
 set -e
 
+if ! command -v shuf &>/dev/null; then
+    shuf() {
+        local args=() n=0 flag_e=0 flag_n=0
+        while [[ $# -gt 0 ]]; do
+            case "$1" in
+                -e) flag_e=1; shift ;;
+                -n) flag_n=1; n="$2"; shift 2 ;;
+                *)  args+=("$1"); shift ;;
+            esac
+        done
+        if [[ $flag_e -eq 1 ]]; then
+            local count=${#args[@]}
+            if [[ $count -eq 0 ]]; then return; fi
+            local i
+            for ((i = count - 1; i > 0; i--)); do
+                local j=$(( RANDOM % (i + 1) ))
+                local tmp="${args[$i]}"; args[$i]="${args[$j]}"; args[$j]="$tmp"
+            done
+            local out=${n:-$count}
+            for ((i = 0; i < out && i < count; i++)); do
+                printf '%s\n' "${args[$i]}"
+            done
+        else
+            local lines=()
+            if [[ ${#args[@]} -gt 0 ]]; then
+                while IFS= read -r line; do lines+=("$line"); done < "${args[0]}"
+            else
+                while IFS= read -r line; do lines+=("$line"); done
+            fi
+            local count=${#lines[@]}
+            if [[ $count -eq 0 ]]; then return; fi
+            local i
+            for ((i = count - 1; i > 0; i--)); do
+                local j=$(( RANDOM % (i + 1) ))
+                local tmp="${lines[$i]}"; lines[$i]="${lines[$j]}"; lines[$j]="$tmp"
+            done
+            local out=${n:-$count}
+            for ((i = 0; i < out && i < count; i++)); do
+                printf '%s\n' "${lines[$i]}"
+            done
+        fi
+    }
+fi
+
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_DIR"
 
@@ -982,7 +1026,8 @@ done
 IFS=$'\n' SORTED_TIMES=($(sort <<<"${TIMES[*]}")); unset IFS
 
 # Collect existing files for "update" and "delete" commits
-mapfile -t EXISTING_FILES < <(find notes snippets bookmarks -name "*.md" -type f 2>/dev/null | shuf)
+EXISTING_FILES=()
+while IFS= read -r f; do EXISTING_FILES+=("$f"); done < <(find notes snippets bookmarks -name "*.md" -type f 2>/dev/null | shuf)
 
 for ((i = 0; i < NUM_COMMITS; i++)); do
     TIME="${SORTED_TIMES[$i]}"
