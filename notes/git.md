@@ -19,3 +19,9 @@ git log -p -- path/to/file
 - `git reflog` is a lifesaver for recovering lost commits
 
 _2025-04-25_
+
+## Update (2025-12-28)
+
+Clarified some vague points.
+
+_2025-12-28_
