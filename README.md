@@ -9,3 +9,5 @@ notes/       TIL and topic notes
 snippets/    Code snippets and cheatsheets
 bookmarks/   Links and references
 ```
+
+_Last updated: 2025-12-28_
