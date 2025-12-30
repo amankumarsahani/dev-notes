@@ -10,3 +10,9 @@
 Start with requirements and constraints before jumping into components. Capacity estimation helps narrow down the design space.
 
 _2025-04-22_
+
+## Update (2025-12-30)
+
+Found a better way to think about this.
+
+_2025-12-30_
