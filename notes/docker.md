@@ -17,6 +17,6 @@ docker build --no-cache -t myapp .
 
 Keep the final image small by using multi-stage builds. Build in one stage, copy artifacts to a minimal runtime stage.
 
-_2025-12-28_
+_2026-01-02_
 
 See also: cron
