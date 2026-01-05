@@ -15,3 +15,9 @@ _2026-01-04_
 Added context from recent project.
 
 _2026-01-05_
+
+## Update (2026-01-05)
+
+Clarified some vague points.
+
+_2026-01-05_
