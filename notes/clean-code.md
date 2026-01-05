@@ -9,3 +9,9 @@ Was overcomplicating it.
 Start with minimal config.
 
 _2026-01-04_
+
+## Update (2026-01-05)
+
+Added context from recent project.
+
+_2026-01-05_
