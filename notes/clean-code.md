@@ -21,3 +21,5 @@ _2026-01-05_
 Clarified some vague points.
 
 _2026-01-05_
+
+See also: kubernetes
