@@ -9,3 +9,5 @@ Common operations:
 > Filling in details as I go.
 
 _2026-01-03_
+
+See also: sqlite
