@@ -7,3 +7,5 @@ Reference for future use.
 Related: tcp
 
 _2026-01-08_
+
+See also: websockets
