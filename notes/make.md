@@ -9,3 +9,9 @@ Assumed it worked like the previous version.
 Read the source.
 
 _2025-12-31_
+
+## Update (2026-01-10)
+
+Clarified some vague points.
+
+_2026-01-10_
