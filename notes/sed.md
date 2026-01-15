@@ -10,3 +10,5 @@ Start with minimal config.
 
 _2026-01-01_
 
+
+See also: nextjs
