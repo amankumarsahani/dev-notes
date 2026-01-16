@@ -7,3 +7,5 @@ This article made it click.
 Related: vim
 
 _2026-01-14_
+
+- Need to benchmark this
