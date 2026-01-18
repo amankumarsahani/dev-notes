@@ -11,3 +11,5 @@ Common operations:
 _2026-01-09_
 
 - Relevant to current work
+
+See also: debugging
