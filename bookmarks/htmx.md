@@ -11,3 +11,9 @@ See also: algorithms
 
 
 See also: tailwind
+
+## Update (2026-01-20)
+
+Clarified some vague points.
+
+_2026-01-20_
