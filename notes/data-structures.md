@@ -9,3 +9,5 @@ Was overcomplicating it.
 Start with minimal config.
 
 _2026-01-07_
+
+- Need to benchmark this
