@@ -1,9 +1,14 @@
 # sed
 
-Learned about sed today.
+## What I got wrong
 
-## Key takeaway
+Was overcomplicating it.
 
-Performance improves when you batch operations.
+## What works
 
-_2026-01-08_
+Start with minimal config.
+
+_2026-01-01_
+
+
+See also: nextjs
