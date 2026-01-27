@@ -9,3 +9,5 @@ Quick sed reference:
 | `apply` | Make changes |
 
 _2026-01-20_
+
+- TODO: add example
