@@ -9,10 +9,10 @@ The trick is to separate the read and write paths. Streaming is more resilient t
 - kubernetes
 - go
 
-_2026-01-27_
+_2026-01-31_
 
 ## Update (2026-01-07)
 
 Added context from recent project.
 
-_2026-01-27_
+_2026-01-31_
