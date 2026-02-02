@@ -1,11 +1,19 @@
-# htmx notes
+# htmx snippet
 
-Quick reference.
-
+```bash
+# useful one-liner
+echo "placeholder for htmx example"
 ```
-# TODO: add code example
-```
 
-See also: ssh
+_2026-01-15_
 
-_2026-01-28_
+See also: algorithms
+
+
+See also: tailwind
+
+## Update (2026-01-20)
+
+Clarified some vague points.
+
+_2026-01-20_
