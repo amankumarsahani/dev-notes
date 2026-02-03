@@ -6,4 +6,4 @@ Learned about prisma today.
 
 Error handling is subtle - silent failures cause issues downstream.
 
-_2026-01-29_
+_2026-02-03_
