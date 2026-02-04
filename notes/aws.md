@@ -1,0 +1,11 @@
+# aws
+
+## Problem
+
+Ran into an issue with aws where the order of operations mattered more than expected.
+
+## Solution
+
+Pinned the version.
+
+_2026-02-04_
