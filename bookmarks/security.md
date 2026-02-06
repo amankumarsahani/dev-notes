@@ -7,3 +7,5 @@ This article made it click.
 Related: zod
 
 _2026-02-04_
+
+- Need to benchmark this
