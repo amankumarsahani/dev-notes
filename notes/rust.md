@@ -9,3 +9,5 @@ Fixes a subtle bug we had.
 _2026-01-20_
 
 See also: queues
+
+See also: oauth
