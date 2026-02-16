@@ -7,3 +7,5 @@ Learned about nginx today.
 This interacts with graphql in a non-obvious way.
 
 _2026-02-12_
+
+See also: regex
