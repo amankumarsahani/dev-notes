@@ -9,7 +9,7 @@ The issue shows up when you combine typescript with websockets. Need to initiali
 - websockets
 - kubernetes
 
-_2026-01-03_
+_2026-02-23_
 
 See also: react
 
