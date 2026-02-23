@@ -17,3 +17,9 @@ Clarified some vague points.
 _2026-01-10_
 
 - TODO: add example
+
+## Update (2026-02-23)
+
+Clarified some vague points.
+
+_2026-02-23_
