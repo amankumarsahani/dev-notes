@@ -12,3 +12,5 @@ The issue shows up when you combine regex with tailwind. Need to initialize rege
 _2026-01-09_
 
 See also: prisma
+
+- Worth revisiting
