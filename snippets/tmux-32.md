@@ -9,3 +9,9 @@ Quick tmux reference:
 | `apply` | Make changes |
 
 _2026-02-05_
+
+## Update (2026-02-24)
+
+Clarified some vague points.
+
+_2026-02-24_
