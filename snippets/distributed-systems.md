@@ -9,3 +9,5 @@ Quick reference.
 See also: regex
 
 _2026-02-20_
+
+See also: ci-cd
