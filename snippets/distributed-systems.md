@@ -1,13 +1,11 @@
-# distributed-systems notes
+# distributed-systems
 
-Quick reference.
+Quick distributed-systems reference:
 
-```
-# TODO: add code example
-```
+| Command | Description |
+|---------|-------------|
+| `init` | Setup |
+| `status` | Check state |
+| `apply` | Make changes |
 
-See also: regex
-
-_2026-02-20_
-
-See also: ci-cd
+_2026-02-03_
