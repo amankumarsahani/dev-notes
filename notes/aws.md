@@ -9,3 +9,5 @@ Ran into an issue with aws where the order of operations mattered more than expe
 Pinned the version.
 
 _2026-02-04_
+
+See also: astro
