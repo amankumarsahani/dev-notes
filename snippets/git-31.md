@@ -9,3 +9,5 @@ Ran into an issue with git where the config wasn't being picked up correctly.
 Added retry logic with exponential backoff.
 
 _2026-02-17_
+
+- Relevant to current work
