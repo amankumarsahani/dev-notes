@@ -6,3 +6,5 @@ Useful patterns:
 - Timeouts should always be explicit.
 
 _2026-02-27_
+
+See also: http
