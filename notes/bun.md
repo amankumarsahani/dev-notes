@@ -1,8 +1,16 @@
-# bun snippet
+# bun notes
 
-```bash
-# useful one-liner
-echo "placeholder for bun example"
+Quick reference.
+
+```
+# TODO: add code example
 ```
 
-_2026-03-13_
+See also: tmux
+
+_2026-01-08_
+
+- TODO: add example
+
+
+- Relevant to current work
