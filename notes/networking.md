@@ -15,3 +15,5 @@ _2025-12-31_
 Clarified some vague points.
 
 _2026-01-07_
+
+- Relevant to current work
