@@ -7,3 +7,9 @@ Found a good explanation.
 Related: bash
 
 _2026-02-23_
+
+## Update (2026-04-02)
+
+Clarified some vague points.
+
+_2026-04-02_
