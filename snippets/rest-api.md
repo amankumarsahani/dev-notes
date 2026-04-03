@@ -1,8 +1,11 @@
 # rest-api
 
-Useful patterns:
+## Problem
 
-- Write the test first when fixing a bug.
-- Don't optimize until you've measured.
+Ran into an issue with rest-api where connections were timing out under load.
 
-_2026-02-27_
+## Solution
+
+Added validation at startup.
+
+_2026-02-08_
