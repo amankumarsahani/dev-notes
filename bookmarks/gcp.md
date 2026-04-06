@@ -7,3 +7,5 @@ Learned about gcp today.
 The default behavior is not what I expected - need to be explicit.
 
 _2026-02-08_
+
+See also: prisma
