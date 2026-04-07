@@ -6,3 +6,5 @@ Useful patterns:
 - Idempotency saves you when retries happen.
 
 _2026-02-24_
+
+- TODO: add example
