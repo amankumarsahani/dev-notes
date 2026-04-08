@@ -5,7 +5,7 @@
 echo "placeholder for htmx example"
 ```
 
-_2026-01-15_
+_2026-04-08_
 
 See also: algorithms
 
@@ -16,4 +16,4 @@ See also: tailwind
 
 Clarified some vague points.
 
-_2026-01-20_
+_2026-04-08_
