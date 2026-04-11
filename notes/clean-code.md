@@ -29,3 +29,5 @@ See also: kubernetes
 Revisited this - approach still holds.
 
 _2026-04-07_
+
+See also: jq
