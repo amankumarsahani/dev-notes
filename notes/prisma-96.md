@@ -9,3 +9,5 @@ Forgot it runs differently in CI.
 Check the changelog when upgrading.
 
 _2026-04-10_
+
+- Relevant to current work
