@@ -10,3 +10,5 @@ The issue shows up when you combine consistency with networking. Need to initial
 - cqrs
 
 _2026-03-23_
+
+- Worth revisiting
