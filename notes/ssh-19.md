@@ -6,3 +6,5 @@ Useful patterns:
 - Make illegal states unrepresentable.
 
 _2026-04-13_
+
+- TODO: add example
