@@ -6,3 +6,5 @@ Useful patterns:
 - Don't optimize until you've measured.
 
 _2026-04-10_
+
+- Relevant to current work
