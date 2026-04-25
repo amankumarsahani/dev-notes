@@ -6,4 +6,4 @@ Today I learned that algorithms can be configured per-request, not just globally
 
 Reduces boilerplate by ~40%.
 
-_2026-01-26_
+_2026-04-25_
