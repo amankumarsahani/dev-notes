@@ -10,3 +10,9 @@ The issue shows up when you combine sqlite with docker. Need to initialize sqlit
 - docker
 
 _2026-04-15_
+
+## Update (2026-04-26)
+
+Clarified some vague points.
+
+_2026-04-26_
