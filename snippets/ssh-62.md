@@ -9,3 +9,5 @@ Good to know for the next project.
 _2026-03-06_
 
 See also: sqlite
+
+- Worth revisiting
