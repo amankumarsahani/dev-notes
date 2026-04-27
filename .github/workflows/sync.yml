@@ -1,0 +1,34 @@
+name: sync
+
+on:
+  schedule:
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: Random delay
+        run: |
+          DELAY=$(( RANDOM % 2700 ))
+          echo "Sleeping ${DELAY}s before sync..."
+          sleep $DELAY
+
+      - name: Run sync
+        run: bash .github/sync.sh
+
+      - name: Push changes
+        run: git push origin HEAD
