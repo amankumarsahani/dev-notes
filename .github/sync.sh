@@ -48,43 +48,6 @@ fi
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_DIR"
 
-# --- seasonal / vacation logic ---
-# Check for a "vacation file" that tracks multi-day breaks
-VACATION_FILE=".github/.vacation"
-
-if [ -f "$VACATION_FILE" ]; then
-    DAYS_LEFT=$(cat "$VACATION_FILE")
-    if [ "$DAYS_LEFT" -gt 1 ]; then
-        echo "$((DAYS_LEFT - 1))" > "$VACATION_FILE"
-        echo "On vacation ($DAYS_LEFT days left). Skipping."
-        exit 0
-    else
-        rm -f "$VACATION_FILE"
-        echo "Vacation over. Resuming."
-    fi
-fi
-
-# Randomly start a vacation: ~2.5% chance any day (roughly once per 40 days)
-VACATION_ROLL=$(( RANDOM % 1000 ))
-if [ "$VACATION_ROLL" -lt 25 ]; then
-    # Vacation: 2-4 days
-    VACATION_DAYS=$(( RANDOM % 3 + 2 ))
-    echo "$VACATION_DAYS" > "$VACATION_FILE"
-    echo "Starting ${VACATION_DAYS}-day vacation. Skipping today."
-    exit 0
-fi
-
-# --- skip some days to look human ---
-DAY_OF_WEEK=$(date +%u)  # 1=Mon, 7=Sun
-ROLL=$(( RANDOM % 100 + 1 ))
-
-# Weekends: 40% chance to skip. Weekdays: 8% chance to skip.
-if [ "$DAY_OF_WEEK" -ge 6 ]; then
-    [ "$ROLL" -le 40 ] && { echo "Skipping today (weekend rest)"; exit 0; }
-else
-    [ "$ROLL" -le 8 ] && { echo "Skipping today (random off-day)"; exit 0; }
-fi
-
 # --- productive burst logic ---
 # ~8% chance to enter a "productive burst" (simulates deadline/motivation)
 BURST_FILE=".github/.burst"
