@@ -968,6 +968,8 @@ generate_time_offset() {
 
 # --- main ---
 
+DAY_OF_WEEK=$(date +%u)  # 1=Mon ... 7=Sun
+
 # Decide commit count based on day type and burst mode
 if [ "$IS_BURST" -eq 1 ]; then
     # Productive burst: 5-8 commits
