@@ -25,3 +25,17 @@ _2025-04-25_
 Clarified some vague points.
 
 _2025-12-28_
+
+## Example
+
+```
+# Quick example of the pattern described above
+# Step 1: Initialize
+resource = init(config)
+# Step 2: Use
+result = resource.process(data)
+# Step 3: Cleanup
+resource.close()
+```
+
+_2026-05-04_
