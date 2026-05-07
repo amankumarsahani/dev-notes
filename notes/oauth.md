@@ -9,3 +9,7 @@ Common operations:
 > Filling in details as I go.
 
 _2026-04-17_
+
+## Related
+
+- **oauth**: Solves the same problem differently - tradeoffs worth understanding
