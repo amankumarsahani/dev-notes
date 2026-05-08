@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-05-08 -->
 # tailwind
 
 Quick tailwind reference:
