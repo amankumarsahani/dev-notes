@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-05-13 -->
 # system-design snippet
 
 ```bash
