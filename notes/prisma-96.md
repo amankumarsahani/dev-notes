@@ -15,3 +15,9 @@ Start simple, add complexity only when needed. For prisma, the minimal viable se
 Related: vue, htmx
 
 _2026-05-14_
+
+## Update (2026-05-20)
+
+Revisited this - the approach still holds up. Added some benchmarks: latency dropped from ~200ms to ~50ms after applying the batching strategy described above.
+
+_2026-05-20_
