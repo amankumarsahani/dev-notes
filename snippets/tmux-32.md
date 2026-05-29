@@ -15,3 +15,7 @@ _2026-02-05_
 Clarified some vague points.
 
 _2026-02-24_
+
+## Related
+
+- **performance**: Complementary tool - often used alongside this
