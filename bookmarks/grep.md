@@ -5,7 +5,7 @@
 echo "placeholder for grep example"
 ```
 
-_2026-02-18_
+_2026-06-05_
 
 See also: systemd
 
@@ -15,5 +15,5 @@ See also: sed
 
 Revisited this - the approach still holds up. Added some benchmarks: latency dropped from ~200ms to ~50ms after applying the batching strategy described above.
 
-_2026-05-06_
+_2026-06-05_
 
