@@ -8,4 +8,4 @@ Quick distributed-systems reference:
 | `status` | Check state |
 | `apply` | Make changes |
 
-_2026-02-03_
+_2026-06-09_
