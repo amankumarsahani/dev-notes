@@ -24,3 +24,7 @@ echo "setup clean-code"
 See also: bash
 
 _Updated 2026-05-21_
+
+## Related
+
+- **jwt**: Complementary tool - often used alongside this
