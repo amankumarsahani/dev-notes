@@ -9,11 +9,11 @@ Quick tailwind reference:
 | `status` | Check state |
 | `apply` | Make changes |
 
-_2026-02-05_
+_2026-06-11_
 
 ## Update (2026-03-06)
 
 Revisited this - approach still holds.
 
-_2026-03-06_
+_2026-06-11_
 
