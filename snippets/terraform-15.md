@@ -18,4 +18,4 @@ echo "cleaning up terraform resources..."
 
 Good for debugging terraform issues in staging.
 
-_2026-06-06_
+_2026-06-14_
