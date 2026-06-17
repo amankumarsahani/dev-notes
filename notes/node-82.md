@@ -22,3 +22,13 @@ assert output.status == 'ok', f'Expected ok, got {output.status}'
 ```
 
 _2026-06-01_
+
+## Comparison with system-design
+
+| Aspect | This | system-design |
+|--------|------|-------------|
+| Maturity | Stable | Evolving |
+| Performance | High | Medium |
+| Learning curve | Steep | Gentle |
+
+_2026-06-17_
