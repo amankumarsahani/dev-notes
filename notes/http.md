@@ -1,8 +1,14 @@
-# http snippet
+# http - links
 
-```bash
-# useful one-liner
-echo "placeholder for http example"
-```
+## Resources
 
-_2026-03-04_
+- [http reference](https://kentcdodds.com/http) - Worth reading
+
+## Notes
+
+Useful context for the current project.
+
+_2026-03-13_
+
+See also: astro
+
