@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-06-21 -->
 # security deep dive
 
 Spent some time really understanding how security works under the hood.
