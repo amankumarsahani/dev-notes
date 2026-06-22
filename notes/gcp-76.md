@@ -9,3 +9,7 @@ Quick gcp reference:
 | `apply` | Make changes |
 
 _2026-04-14_
+
+## Related
+
+- **linux**: Complementary tool - often used alongside this
