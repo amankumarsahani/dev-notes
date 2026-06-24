@@ -14,3 +14,13 @@ Pairs well with the curl notes.
 > "Make it work, make it right, make it fast - in that order."
 
 _2026-05-22_
+
+## Comparison with python
+
+| Aspect | This | python |
+|--------|------|------|
+| Community | Large | Growing |
+| Setup complexity | Medium | Low |
+| Learning curve | Steep | Gentle |
+
+_2026-06-24_
