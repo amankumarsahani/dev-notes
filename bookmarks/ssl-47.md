@@ -14,3 +14,9 @@ Pairs well with the git notes.
 > "Premature optimization is the root of all evil, but so is premature abstraction."
 
 _2026-06-19_
+
+## FAQ
+
+**Q: When should I use this vs the alternative?**
+
+A: Yes, with caveats. Monitor the metrics described above and have a rollback plan.
