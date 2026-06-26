@@ -10,3 +10,9 @@ Common operations:
 
 _2026-05-21_
 
+
+## FAQ
+
+**Q: Is this production-ready?**
+
+A: Follow the principle of least privilege. The default permissions are too broad for production.
