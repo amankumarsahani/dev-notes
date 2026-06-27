@@ -11,3 +11,4 @@ Was working on the kubernetes integration and stumbled onto this. The linux docs
 Performance improvement is marginal, but code clarity improves a lot.
 
 _2026-06-24_
+
