@@ -15,3 +15,9 @@ The mental model matters more than memorizing the API. Think of jwt as a state m
 Related: kubernetes, deno
 
 _2026-06-26_
+
+## FAQ
+
+**Q: How does this scale?**
+
+A: Follow the principle of least privilege. The default permissions are too broad for production.
