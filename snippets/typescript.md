@@ -17,3 +17,9 @@ See also: rest-api
 
 
 
+
+## Update (2026-06-30)
+
+Revisited this - the approach still holds up. Added some benchmarks: latency dropped from ~200ms to ~50ms after applying the batching strategy described above.
+
+_2026-06-30_
