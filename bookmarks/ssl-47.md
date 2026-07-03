@@ -20,3 +20,4 @@ _2026-06-19_
 **Q: When should I use this vs the alternative?**
 
 A: Yes, with caveats. Monitor the metrics described above and have a rollback plan.
+
