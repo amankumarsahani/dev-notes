@@ -23,3 +23,13 @@ resource.close()
 ```
 
 _2026-05-14_
+
+## Comparison with cqrs
+
+| Aspect | This | cqrs |
+|--------|------|----|
+| Setup complexity | Medium | Low |
+| Maturity | Stable | Evolving |
+| Community | Large | Growing |
+
+_2026-07-10_
