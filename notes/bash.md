@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-07-10 -->
 # bash
 
 ## String operations
