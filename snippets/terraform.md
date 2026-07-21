@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-07-21 -->
 # terraform
 
 Quick terraform reference:
