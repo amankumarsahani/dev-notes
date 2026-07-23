@@ -14,3 +14,9 @@ Pairs well with the make notes.
 > "If you can't explain it simply, you don't understand it well enough."
 
 _2026-05-07_
+
+## FAQ
+
+**Q: When should I use this vs the alternative?**
+
+A: Follow the principle of least privilege. The default permissions are too broad for production.
