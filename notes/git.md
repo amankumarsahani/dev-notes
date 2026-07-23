@@ -13,3 +13,13 @@ Added context from recent project.
 
 _2026-03-11_
 
+
+## Comparison with systemd
+
+| Aspect | This | systemd |
+|--------|------|-------|
+| Community | Large | Growing |
+| Setup complexity | Medium | Low |
+| Learning curve | Steep | Gentle |
+
+_2026-07-23_
