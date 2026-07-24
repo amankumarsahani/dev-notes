@@ -25,3 +25,15 @@ _2026-04-30_
 ## Related
 
 - **redis**: Solves the same problem differently - tradeoffs worth understanding
+
+## Example
+
+```
+# Minimal reproduction of the issue
+# Run with: [command here]
+input = prepare_test_data()
+output = process(input)
+assert output.status == 'ok', f'Expected ok, got {output.status}'
+```
+
+_2026-07-24_
