@@ -13,4 +13,4 @@ The comments section has some good counter-arguments worth considering.
 
 > "If you can't explain it simply, you don't understand it well enough."
 
-_2026-07-23_
+_2026-07-25_
