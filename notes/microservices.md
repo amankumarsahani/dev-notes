@@ -22,3 +22,13 @@ At its core, microservices uses a pipeline architecture. Data flows through stag
 **Avoid when**: A simpler solution (like plain websockets) works fine. Don't add microservices just because it's trendy.
 
 _2026-06-14_
+
+## Comparison with zod
+
+| Aspect | This | zod |
+|--------|------|---|
+| Community | Large | Growing |
+| Performance | High | Medium |
+| Setup complexity | Medium | Low |
+
+_2026-07-27_
