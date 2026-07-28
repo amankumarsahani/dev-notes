@@ -20,3 +20,7 @@ Had to explicitly set the option - can't rely on defaults.
 
 _2026-07-05_
 
+
+## Related
+
+- **zod**: Complementary tool - often used alongside this
