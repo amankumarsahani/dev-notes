@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-07-30 -->
 # node - bookmark
 
 This article made it click.
