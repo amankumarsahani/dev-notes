@@ -23,3 +23,4 @@ _2026-05-08_
 Updated after running into this again in a different project. The pattern is consistent: always validate config at startup, not at first use. Fail fast saves debugging time.
 
 _2026-05-26_
+
