@@ -17,3 +17,7 @@ See also: tailwind
 Clarified some vague points.
 
 _2026-04-08_
+
+## Related
+
+- **tcp**: Uses a similar pattern - worth comparing approaches
