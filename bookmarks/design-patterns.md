@@ -13,7 +13,7 @@ Pairs well with the make notes.
 
 > "If you can't explain it simply, you don't understand it well enough."
 
-_2026-05-07_
+_2026-08-07_
 
 ## FAQ
 
