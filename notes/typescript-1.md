@@ -9,3 +9,7 @@ Ran into an issue with typescript where connections were timing out under load.
 Added validation at startup.
 
 _2026-01-19_
+
+## Related
+
+- **docker**: Complementary tool - often used alongside this
