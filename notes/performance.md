@@ -14,3 +14,9 @@ Author works at a FAANG - take the scale assumptions with a grain of salt for sm
 > "Make it work, make it right, make it fast - in that order."
 
 _2026-05-22_
+
+## FAQ
+
+**Q: When should I use this vs the alternative?**
+
+A: Yes, with caveats. Monitor the metrics described above and have a rollback plan.
