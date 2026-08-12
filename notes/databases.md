@@ -15,3 +15,15 @@ The 80/20 rule applies here - focus on the common case first. 80% of databases u
 Related: trpc, svelte
 
 _2026-06-10_
+
+## Example
+
+```
+# Minimal reproduction of the issue
+# Run with: [command here]
+input = prepare_test_data()
+output = process(input)
+assert output.status == 'ok', f'Expected ok, got {output.status}'
+```
+
+_2026-08-12_
