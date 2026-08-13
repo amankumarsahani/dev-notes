@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-08-13 -->
 # postgres
 
 Learned something useful about postgres today.
