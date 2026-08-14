@@ -17,3 +17,13 @@ Revisited this - the approach still holds up. Added some benchmarks: latency dro
 
 _2026-06-05_
 
+
+## Comparison with react
+
+| Aspect | This | react |
+|--------|------|-----|
+| Learning curve | Steep | Gentle |
+| Setup complexity | Medium | Low |
+| Maturity | Stable | Evolving |
+
+_2026-08-14_
