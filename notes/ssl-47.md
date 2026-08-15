@@ -21,3 +21,9 @@ _2026-06-19_
 
 A: Yes, with caveats. Monitor the metrics described above and have a rollback plan.
 
+
+## Update (2026-08-15)
+
+Found a better way to think about this. Instead of treating it as a request-response pattern, model it as a stream. The API supports both, but streaming is more resilient to timeouts and partial failures.
+
+_2026-08-15_
