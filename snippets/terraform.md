@@ -17,4 +17,4 @@ Quick terraform reference:
 - `--dry-run`: Preview without applying
 - `--force`: Skip confirmations (use carefully)
 
-_2026-05-27_
+_2026-08-18_
