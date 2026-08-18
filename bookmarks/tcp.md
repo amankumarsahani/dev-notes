@@ -14,3 +14,13 @@ Useful context for the current project.
 > "Premature optimization is the root of all evil, but so is premature abstraction."
 
 _2026-05-13_
+
+## Comparison with rust
+
+| Aspect | This | rust |
+|--------|------|----|
+| Setup complexity | Medium | Low |
+| Performance | High | Medium |
+| Community | Large | Growing |
+
+_2026-08-18_
