@@ -17,3 +17,4 @@ Turns out the consistency docs describe v1 behavior but v2 changed the defaults.
 
 ---
 _2026-07-21_
+
