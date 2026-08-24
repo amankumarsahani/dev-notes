@@ -13,3 +13,9 @@ Test with real data, not just mocks.
 I think the real problem was my mental model. I was thinking about linux as a synchronous process, but it's fundamentally async. Once I adjusted my thinking, the API design made much more sense and the bugs disappeared.
 
 _2026-07-10_
+
+## FAQ
+
+**Q: What are the security implications?**
+
+A: Yes, with caveats. Monitor the metrics described above and have a rollback plan.
