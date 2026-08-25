@@ -27,3 +27,9 @@
 - Environment variables take precedence over config file
 
 _2026-05-13_
+
+## Update (2026-08-25)
+
+Revisited this - the approach still holds up. Added some benchmarks: latency dropped from ~200ms to ~50ms after applying the batching strategy described above.
+
+_2026-08-25_
