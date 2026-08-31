@@ -27,3 +27,9 @@
 - Environment variables take precedence over config file
 
 _2026-08-05_
+
+## Update (2026-08-31)
+
+Found a better way to think about this. Instead of treating it as a request-response pattern, model it as a stream. The API supports both, but streaming is more resilient to timeouts and partial failures.
+
+_2026-08-31_
