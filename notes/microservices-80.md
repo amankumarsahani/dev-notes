@@ -17,3 +17,4 @@ The trick is to separate the read and write paths. microservices handles reads w
 
 ---
 _2026-08-11_
+
