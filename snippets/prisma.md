@@ -15,3 +15,13 @@ _2026-02-03_
 Found a better way to think about this.
 
 _2026-04-06_
+
+## Comparison with debugging
+
+| Aspect | This | debugging |
+|--------|------|---------|
+| Setup complexity | Medium | Low |
+| Learning curve | Steep | Gentle |
+| Performance | High | Medium |
+
+_2026-09-03_
