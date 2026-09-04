@@ -13,3 +13,13 @@ _2026-02-10_
 Revisited this - the approach still holds up. Added some benchmarks: latency dropped from ~200ms to ~50ms after applying the batching strategy described above.
 
 _2026-05-05_
+
+## Comparison with make
+
+| Aspect | This | make |
+|--------|------|----|
+| Setup complexity | Medium | Low |
+| Performance | High | Medium |
+| Learning curve | Steep | Gentle |
+
+_2026-09-04_
