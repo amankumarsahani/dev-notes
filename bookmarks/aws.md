@@ -13,4 +13,4 @@ Come back to this when working on the distributed-systems integration.
 
 > "The first 90% of the code takes 90% of the time. The remaining 10% takes the other 90%."
 
-_2026-08-14_
+_2026-09-07_
