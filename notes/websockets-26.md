@@ -11,3 +11,4 @@ Was working on the rust integration and stumbled onto this. The websockets docs 
 Reduces our websockets boilerplate by ~40%. Going to refactor the existing handlers this week.
 
 _2026-09-06_
+
