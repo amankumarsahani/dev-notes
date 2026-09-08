@@ -36,3 +36,9 @@ Common tmux operations I use:
 > Will fill in actual commands as I use them.
 
 _2026-07-01_
+
+## FAQ
+
+**Q: How does this scale?**
+
+A: Use this when you need the specific guarantees it provides. For simpler cases, the alternative is fine.
