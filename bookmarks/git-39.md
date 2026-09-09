@@ -14,3 +14,4 @@ The comments section has some good counter-arguments worth considering.
 > "Premature optimization is the root of all evil, but so is premature abstraction."
 
 _2026-09-07_
+
