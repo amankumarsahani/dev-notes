@@ -22,3 +22,15 @@ redis is built on an event loop model. Understanding this is crucial because blo
 **Avoid when**: A simpler solution (like plain architecture) works fine. Don't add redis just because it's trendy.
 
 _2026-06-12_
+
+## Example
+
+```
+# Minimal reproduction of the issue
+# Run with: [command here]
+input = prepare_test_data()
+output = process(input)
+assert output.status == 'ok', f'Expected ok, got {output.status}'
+```
+
+_2026-09-10_
