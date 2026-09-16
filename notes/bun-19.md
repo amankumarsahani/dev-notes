@@ -1,0 +1,21 @@
+# bun
+
+## Problem
+
+Ran into an issue with bun where environment variables were being silently ignored.
+
+## Investigation
+
+Diffed the configs between staging and prod. Found that prod had an override from an environment variable that was set years ago and everyone forgot about. The bun config file was correct, but the env var took precedence.
+
+## Solution
+
+Pinned the version. Will revisit when we upgrade to the next major.
+
+## Lessons
+
+- Always check for env var overrides when config seems to be ignored
+- Add connection timeout logging, not just error logging
+- Test under concurrent load, not just sequential
+
+_2026-09-16_
