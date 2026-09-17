@@ -19,3 +19,4 @@ Added validation at startup so it fails fast instead of silently.
 - Test under concurrent load, not just sequential
 
 _2026-08-07_
+
