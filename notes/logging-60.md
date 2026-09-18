@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-09-18 -->
 # logging
 
 Learned something useful about logging today.
