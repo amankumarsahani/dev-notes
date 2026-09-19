@@ -19,3 +19,17 @@ Pinned the version. Will revisit when we upgrade to the next major.
 - Test under concurrent load, not just sequential
 
 _2026-09-16_
+
+## Example
+
+```
+# Configuration template
+config:
+  timeout: 5000
+  retries: 3
+  pool_size: 10
+  log_level: info
+  # Override per environment via env vars
+```
+
+_2026-09-19_
