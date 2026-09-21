@@ -19,3 +19,13 @@ Added retry logic with exponential backoff (capped at 30s). Works reliably now.
 - Test under concurrent load, not just sequential
 
 _2026-08-15_
+
+## Comparison with prisma
+
+| Aspect | This | prisma |
+|--------|------|------|
+| Maturity | Stable | Evolving |
+| Community | Large | Growing |
+| Performance | High | Medium |
+
+_2026-09-21_
