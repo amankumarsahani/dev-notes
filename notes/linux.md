@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-09-25 -->
 # linux - TIL
 
 Today I learned that linux has a built-in profiler that you can enable with a single flag.
