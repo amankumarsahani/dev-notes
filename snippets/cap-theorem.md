@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-09-25 -->
 # cap-theorem
 
 Useful patterns:
