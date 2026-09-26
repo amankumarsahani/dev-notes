@@ -26,3 +26,7 @@ echo "4. Check response format"
 ```
 
 _2026-09-01_
+
+## Related
+
+- **ssh**: Uses a similar pattern - worth comparing approaches
