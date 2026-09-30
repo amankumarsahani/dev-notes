@@ -18,3 +18,15 @@ For ci-cd, the composition approach works well: build small, focused ci-cd utili
 3. Don't log sensitive ci-cd config values (seen this too many times)
 
 _2026-09-29_
+
+## Example
+
+```
+# Minimal reproduction of the issue
+# Run with: [command here]
+input = prepare_test_data()
+output = process(input)
+assert output.status == 'ok', f'Expected ok, got {output.status}'
+```
+
+_2026-09-30_
