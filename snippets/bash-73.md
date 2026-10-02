@@ -37,3 +37,7 @@ Common bash operations I use:
 
 _2026-07-12_
 
+
+## Related
+
+- **awk**: Solves the same problem differently - tradeoffs worth understanding
