@@ -23,3 +23,7 @@ _2026-05-05_
 | Learning curve | Steep | Gentle |
 
 _2026-09-04_
+
+## Related
+
+- **node**: Uses a similar pattern - worth comparing approaches
