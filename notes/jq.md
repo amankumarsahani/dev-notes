@@ -18,3 +18,9 @@ The issue shows up when you combine jq with tailwind. Individually they work fin
 ---
 _2026-06-06_
 
+
+## FAQ
+
+**Q: What are the security implications?**
+
+A: Yes, with caveats. Monitor the metrics described above and have a rollback plan.
