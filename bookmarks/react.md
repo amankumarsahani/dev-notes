@@ -1,16 +1,19 @@
-# react - links
+# react
 
-## Resources
+Quick react reference:
 
-- [react reference](https://dev.to/react) - Deep dive
-- [react in practice](https://danluu.com/react-guide) - Hands-on tutorial
+| Command / Pattern | Description | Notes |
+|-------------------|-------------|-------|
+| `init` | Initialize react | Run once per project |
+| `status` | Check current state | Safe to run anytime |
+| `apply` | Apply changes | Review diff first |
+| `rollback` | Undo last change | Keep backups |
+| `verify` | Validate config | Run in CI |
 
-## Notes
+## Common flags
 
-Pairs well with the kubernetes notes.
+- `--verbose`: Extra output for debugging
+- `--dry-run`: Preview without applying
+- `--force`: Skip confirmations (use carefully)
 
-## Key quotes
-
-> "The best code is the code you don't write."
-
-_2026-05-22_
+_2026-08-12_
