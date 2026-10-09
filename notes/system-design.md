@@ -1,18 +1,9 @@
-# system-design
+<!-- Last major revision: 2026-05-13 -->
+# system-design snippet
 
-Learned about system-design today.
+```bash
+# useful one-liner
+echo "placeholder for system-design example"
+```
 
-## Key takeaway
-
-This interacts with tar in a non-obvious way.
-
-_2026-01-30_
-
-
-## Update (2026-03-07)
-
-Revisited this - approach still holds.
-
-_2026-03-07_
-
-
+_2026-02-02_
