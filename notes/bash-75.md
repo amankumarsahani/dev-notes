@@ -14,3 +14,9 @@ I think the real problem was my mental model. I was thinking about bash as a syn
 
 _2026-05-05_
 
+
+## Update (2026-10-10)
+
+Added some context from a recent project. We hit the exact issue described in the 'Gotchas' section. The fix was straightforward once we identified it, but finding the root cause took hours.
+
+_2026-10-10_
