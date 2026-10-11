@@ -14,3 +14,9 @@ The comments section has some good counter-arguments worth considering.
 > "The best code is the code you don't write."
 
 _2026-09-24_
+
+## FAQ
+
+**Q: When should I use this vs the alternative?**
+
+A: Tested up to ~10k concurrent connections. Beyond that, you need to shard or use a different approach.
