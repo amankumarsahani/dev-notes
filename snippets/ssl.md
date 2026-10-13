@@ -2,22 +2,16 @@
 
 ## Resources
 
-- [ssl reference](https://brandur.org/ssl) - Practical guide
+- [ssl reference](https://dev.to/ssl) - Deep dive
+- [ssl in practice](https://github.com/ssl-guide) - Hands-on tutorial
 
 ## Notes
 
-Useful context for the current project.
+Pairs well with the terraform notes.
 
-_2026-02-12_
+## Key quotes
 
-## Example
+> "Make it work, make it right, make it fast - in that order."
 
-```
-# Minimal reproduction of the issue
-# Run with: [command here]
-input = prepare_test_data()
-output = process(input)
-assert output.status == 'ok', f'Expected ok, got {output.status}'
-```
+_2026-05-25_
 
-_2026-05-30_
