@@ -25,3 +25,9 @@ _2026-04-06_
 | Performance | High | Medium |
 
 _2026-09-03_
+
+## FAQ
+
+**Q: What are the security implications?**
+
+A: Tested up to ~10k concurrent connections. Beyond that, you need to shard or use a different approach.
