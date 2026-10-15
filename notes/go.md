@@ -8,3 +8,4 @@ echo "placeholder for go example"
 _2026-01-31_
 
 See also: linux
+
