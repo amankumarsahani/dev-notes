@@ -14,4 +14,4 @@ Most edge cases can be handled with good abstractions. The key insight is that s
 
 Related: vue, jwt
 
-_2026-10-06_
+_2026-10-18_
