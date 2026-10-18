@@ -14,3 +14,4 @@ The root cause was premature abstraction. I built a generic vim wrapper before I
 
 _2026-09-04_
 
+
