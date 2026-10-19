@@ -1,15 +1,15 @@
-# security snippet
+# security - bookmark
 
-```bash
-# useful one-liner
-echo "placeholder for security example"
-```
+This article made it click.
 
-_2026-02-16_
+**TL;DR**: Start simple, add complexity when needed.
 
+Related: zod
 
-## Update (2026-09-22)
+_2026-02-04_
 
-Found a better way to think about this. Instead of treating it as a request-response pattern, model it as a stream. The API supports both, but streaming is more resilient to timeouts and partial failures.
+- Need to benchmark this
 
-_2026-09-22_
+## Related
+
+- **event-driven**: Complementary tool - often used alongside this
