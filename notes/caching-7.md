@@ -24,3 +24,4 @@ _2026-06-17_
 Added some context from a recent project. We hit the exact issue described in the 'Gotchas' section. The fix was straightforward once we identified it, but finding the root cause took hours.
 
 _2026-07-31_
+
