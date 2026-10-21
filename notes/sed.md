@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-10-21 -->
 # sed notes
 
 Quick reference.
