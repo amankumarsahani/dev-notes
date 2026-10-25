@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-10-25 -->
 # consistency
 
 ## Details
