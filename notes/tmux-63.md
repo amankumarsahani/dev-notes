@@ -24,3 +24,7 @@ _2026-08-25_
 Found a better way to think about this. Instead of treating it as a request-response pattern, model it as a stream. The API supports both, but streaming is more resilient to timeouts and partial failures.
 
 _2026-09-30_
+
+## Related
+
+- **bash**: Prerequisite knowledge for the advanced sections
