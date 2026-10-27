@@ -24,3 +24,7 @@ echo "setup networking"
 See also: node
 
 _Updated 2026-05-18_
+
+## Related
+
+- **htmx**: Prerequisite knowledge for the advanced sections
