@@ -1,38 +1,27 @@
 # nextjs cheatsheet
 
-Common nextjs operations I use:
+Common operations:
 
-## 1. Setup / init
+1. Setup / init
+2. Basic usage
+3. Advanced patterns
 
-```bash
-# initialize a new nextjs project
-# typically: install, configure, verify
-```
+> Filling in details as I go.
 
-## 2. Daily workflow
+_2026-01-30_
 
-```bash
-# check status
-# make changes
-# verify changes
-# commit/apply
-```
+See also: curl
 
-## 3. Troubleshooting
+See also: curl
 
-```bash
-# check logs
-# verify config
-# test connectivity
-# restart if needed
-```
+## Update (2026-04-07)
 
-## 4. Production
+Revisited this - approach still holds.
 
-- Always use `--dry-run` first
-- Check rollback procedure before applying
-- Monitor metrics after changes
+_2026-04-07_
 
-> Will fill in actual commands as I use them.
+## Update (2026-04-30)
 
-_2026-10-28_
+Added some context from a recent project. We hit the exact issue described in the 'Gotchas' section. The fix was straightforward once we identified it, but finding the root cause took hours.
+
+_2026-04-30_
