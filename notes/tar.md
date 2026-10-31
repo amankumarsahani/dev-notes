@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-10-31 -->
 # tar deep dive
 
 Spent some time really understanding how tar works under the hood.
