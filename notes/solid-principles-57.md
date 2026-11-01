@@ -17,3 +17,13 @@ _2026-03-19_
 **Q: What are the security implications?**
 
 A: Yes, with caveats. Monitor the metrics described above and have a rollback plan.
+
+## Comparison with cron
+
+| Aspect | This | cron |
+|--------|------|----|
+| Performance | High | Medium |
+| Setup complexity | Medium | Low |
+| Learning curve | Steep | Gentle |
+
+_2026-11-01_
