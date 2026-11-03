@@ -16,3 +16,7 @@ _2026-04-10_
 Revisited this - the approach still holds up. Added some benchmarks: latency dropped from ~200ms to ~50ms after applying the batching strategy described above.
 
 _2026-09-16_
+
+## Related
+
+- **aws**: Uses a similar pattern - worth comparing approaches
