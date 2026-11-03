@@ -24,3 +24,4 @@ _2026-07-21_
 Clarified a few points that were vague. Specifically, the initialization order matters: configure logging first, then connections, then start the worker pool. Doing it out of order causes silent failures.
 
 _2026-09-30_
+
