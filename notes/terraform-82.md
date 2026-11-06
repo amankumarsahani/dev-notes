@@ -17,3 +17,9 @@ Turns out the terraform docs describe v1 behavior but v2 changed the defaults. K
 
 ---
 _2026-10-21_
+
+## FAQ
+
+**Q: How does this scale?**
+
+A: Tested up to ~10k concurrent connections. Beyond that, you need to shard or use a different approach.
