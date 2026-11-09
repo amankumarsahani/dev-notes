@@ -1,17 +1,21 @@
-# microservices - links
+# microservices
 
-## Resources
+## Problem
 
-- [microservices reference](https://jvns.ca/microservices) - Quick reference
-- [microservices in practice](https://kentcdodds.com/microservices-guide) - Case study
+Ran into an issue with microservices where the order of operations mattered more than I thought.
 
-## Notes
+## Investigation
 
-Author works at a FAANG - take the scale assumptions with a grain of salt for smaller systems.
+First thought it was a networking issue, but tcpdump showed packets arriving fine. The problem was upstream - the microservices client was dropping responses that took longer than 5s, and the server was occasionally slow due to grep contention.
 
-## Key quotes
+## Solution
 
-> "Make it work, make it right, make it fast - in that order."
+Pinned the version. Will revisit when we upgrade to the next major.
 
-_2026-07-04_
+## Lessons
 
+- Always check for env var overrides when config seems to be ignored
+- Add connection timeout logging, not just error logging
+- Test under concurrent load, not just sequential
+
+_2026-11-08_
