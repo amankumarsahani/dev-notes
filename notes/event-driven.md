@@ -19,3 +19,17 @@ Added validation at startup so it fails fast instead of silently.
 - Test under concurrent load, not just sequential
 
 _2026-08-31_
+
+## Example
+
+```
+# Configuration template
+config:
+  timeout: 5000
+  retries: 3
+  pool_size: 10
+  log_level: info
+  # Override per environment via env vars
+```
+
+_2026-11-09_
