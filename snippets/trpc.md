@@ -7,3 +7,4 @@ Found a good explanation.
 Related: design-patterns
 
 _2026-04-15_
+
