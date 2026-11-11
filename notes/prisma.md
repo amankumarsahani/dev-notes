@@ -13,3 +13,13 @@ _2026-02-23_
 Clarified some vague points.
 
 _2026-04-02_
+
+## Comparison with caching
+
+| Aspect | This | caching |
+|--------|------|-------|
+| Maturity | Stable | Evolving |
+| Performance | High | Medium |
+| Learning curve | Steep | Gentle |
+
+_2026-11-11_
