@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-11-11 -->
 # refactoring
 
 Learned about refactoring today.
