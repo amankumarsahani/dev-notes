@@ -26,3 +26,13 @@ echo "4. Check response format"
 ```
 
 _2026-08-24_
+
+## Comparison with ddd
+
+| Aspect | This | ddd |
+|--------|------|---|
+| Learning curve | Steep | Gentle |
+| Performance | High | Medium |
+| Community | Large | Growing |
+
+_2026-11-12_
