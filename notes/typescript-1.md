@@ -13,3 +13,13 @@ _2026-08-14_
 ## Related
 
 - **docker**: Complementary tool - often used alongside this
+
+## Comparison with drizzle
+
+| Aspect | This | drizzle |
+|--------|------|-------|
+| Community | Large | Growing |
+| Performance | High | Medium |
+| Setup complexity | Medium | Low |
+
+_2026-11-14_
