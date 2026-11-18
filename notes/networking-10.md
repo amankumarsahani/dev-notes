@@ -34,3 +34,7 @@ _Updated 2026-05-18_
 **Q: When should I use this vs the alternative?**
 
 A: Follow the principle of least privilege. The default permissions are too broad for production.
+
+## Related
+
+- **zod**: Prerequisite knowledge for the advanced sections
