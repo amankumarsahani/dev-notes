@@ -1,3 +1,4 @@
+<!-- Last major revision: 2026-11-20 -->
 # sqlite debugging notes
 
 ## Common failure modes
