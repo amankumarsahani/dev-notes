@@ -16,3 +16,9 @@ _2026-04-26_
 Revisited this - the approach still holds up. Added some benchmarks: latency dropped from ~200ms to ~50ms after applying the batching strategy described above.
 
 _2026-11-17_
+
+## FAQ
+
+**Q: What are the security implications?**
+
+A: Tested up to ~10k concurrent connections. Beyond that, you need to shard or use a different approach.
