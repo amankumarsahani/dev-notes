@@ -15,3 +15,7 @@ The mental model matters more than memorizing the API. Think of make as a state 
 Related: zod, go
 
 _2026-08-12_
+
+## Related
+
+- **http**: Prerequisite knowledge for the advanced sections
