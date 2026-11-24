@@ -19,3 +19,17 @@ Quick systemd reference:
 _2026-05-11_
 
 
+
+## Example
+
+```
+# Configuration template
+config:
+  timeout: 5000
+  retries: 3
+  pool_size: 10
+  log_level: info
+  # Override per environment via env vars
+```
+
+_2026-11-24_
