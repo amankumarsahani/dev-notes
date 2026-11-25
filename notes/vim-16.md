@@ -30,3 +30,17 @@ _Updated 2026-10-30_
 Added some context from a recent project. We hit the exact issue described in the 'Gotchas' section. The fix was straightforward once we identified it, but finding the root cause took hours.
 
 _2026-11-09_
+
+## Example
+
+```
+# Configuration template
+config:
+  timeout: 5000
+  retries: 3
+  pool_size: 10
+  log_level: info
+  # Override per environment via env vars
+```
+
+_2026-11-25_
