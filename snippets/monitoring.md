@@ -43,3 +43,13 @@ except:
 ```
 
 _2026-07-27_
+
+## Comparison with event-driven
+
+| Aspect | This | event-driven |
+|--------|------|------------|
+| Performance | High | Medium |
+| Community | Large | Growing |
+| Maturity | Stable | Evolving |
+
+_2026-11-25_
