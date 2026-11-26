@@ -1,45 +1,24 @@
-# awk - code patterns
+# awk deep dive
 
-## Pattern 1: Initialization with cleanup
+Spent some time really understanding how awk works under the hood.
 
-```
-// pseudocode - adapt to your language
-resource = awk.init(config)
-try {
-    result = resource.process(input)
-    return result
-} finally {
-    resource.close()
-}
-```
+## Architecture
 
-## Pattern 2: Retry with backoff
+The awk runtime uses a thread pool for I/O and a single thread for coordination. This means CPU-bound work in handlers is the number one performance killer. Offload to workers.
 
-```
-// pseudocode
-for attempt in range(max_retries):
-    try:
-        return awk.execute(params)
-    except RetryableError:
-        sleep(backoff * 2^attempt)
-raise MaxRetriesExceeded
-```
+## Performance characteristics
 
-## Pattern 3: Circuit breaker
+| Operation | Typical latency | Notes |
+|-----------|----------------|-------|
+| Read | 1-5ms | Cached path |
+| Write | 5-20ms | Depends on durability setting |
+| Bulk | 50-200ms | Amortized cost per item is lower |
 
-```
-// pseudocode
-if circuit.is_open():
-    return fallback_value
-try:
-    result = awk.call(args)
-    circuit.record_success()
-    return result
-except:
-    circuit.record_failure()
-    if circuit.should_open():
-        circuit.open()
-    raise
-```
+> These are rough numbers from my testing. YMMV depending on http config.
 
-_2026-09-22_
+## When to use / when to avoid
+
+**Use when**: You need awk's specific guarantees and the operational overhead is justified.
+**Avoid when**: A simpler solution (like plain http) works fine. Don't add awk just because it's trendy.
+
+_2026-10-19_
